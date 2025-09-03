@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/read/[ids].ts": { "memory": 256, "maxDuration": 10 },
+    "api/og/[unix].ts": { "memory": 128, "maxDuration": 10 }
+  },
+  "routes": [
+    { "src": "/s/(\\d+)", "dest": "/api/share?unix=$1" }
+  ]
+}
+
+
