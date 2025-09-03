@@ -36,6 +36,8 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
   const prevReversedRef = useRef<boolean | undefined>(undefined)
   const [rotateTransition, setRotateTransition] = useState<boolean>(false)
   const prevKeyRef = useRef<string | number | undefined>(undefined)
+  const [currentReversed, setCurrentReversed] = useState<boolean>(!!reversed)
+  const [pendingReversed, setPendingReversed] = useState<boolean | null>(null)
   
   // Mount
   useEffect(() => {}, [alt])
@@ -100,6 +102,8 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
     // No animation API available
     if (!anime) {
       setCurrentSrc(nextSrc)
+      if (pendingReversed !== null) setCurrentReversed(pendingReversed)
+      setPendingReversed(null)
       setIsFlipping(false)
       setNextSrc(null)
       animatingRef.current = false
@@ -136,6 +140,8 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
             complete: function() {
               // Animation complete, update state
               setCurrentSrc(nextSrc)
+              if (pendingReversed !== null) setCurrentReversed(pendingReversed)
+              setPendingReversed(null)
               setIsFlipping(false)
               setNextSrc(null)
               animatingRef.current = false
@@ -173,6 +179,7 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
   useEffect(() => {
     if (prevReversedRef.current === undefined) {
       prevReversedRef.current = reversed
+      setCurrentReversed(!!reversed)
       return
     }
     if (reversed !== prevReversedRef.current) {
@@ -186,8 +193,9 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
       } else {
         setRotateTransition(false)
       }
+      if (!isFlipping) setCurrentReversed(!!reversed)
     }
-  }, [reversed, animateOnReversed, src, currentSrc, triggerFlicker])
+  }, [reversed, animateOnReversed, src, currentSrc, triggerFlicker, isFlipping])
   
   // Debug helper removed for production
   
@@ -204,17 +212,19 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
       setIsFlipping(false)
       setNextSrc(null)
       triggerFlicker()
+      setCurrentReversed(!!reversed)
       return
     }
+    setPendingReversed(!!reversed)
     flip(src)
-  }, [src, currentSrc, flip, playing, alt, triggerFlicker])
+  }, [src, currentSrc, flip, playing, alt, triggerFlicker, reversed])
 
   const commonImgStyle: React.CSSProperties = {
     width,
     height,
     objectFit: 'cover',
     display: 'block',
-    transform: reversed ? 'rotate(180deg)' : 'none',
+    transform: currentReversed ? 'rotate(180deg)' : 'none',
     transition: rotateTransition ? 'transform 90ms ease-in-out' : 'none',
   }
 
@@ -283,6 +293,7 @@ export function FlipImage(props: FlipImageProps): JSX.Element {
               style={{
                 ...commonImgStyle,
                 clipPath: 'inset(50% 0 0 0)',
+                transform: (pendingReversed ?? !!reversed) ? 'rotate(180deg)' : 'none',
               }}
             />
           </div>

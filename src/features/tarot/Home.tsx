@@ -340,14 +340,19 @@ export function Home(): JSX.Element {
                 height={96}
                 style={{ width: 96, height: 96, cursor: 'pointer' }}
                 onClick={async () => {
+                  const shareUrl = new URL(`/${selectedUnix}`, window.location.origin).toString()
                   try {
-                    const r = await fetch(`/og?unix=${selectedUnix}`)
-                    if (r.ok) {
-                      const data = await r.json()
-                      const shareUrl = new URL(`/s/${selectedUnix}`, window.location.origin).toString()
-                      await navigator.clipboard.writeText(shareUrl)
-                    }
-                  } catch {}
+                    await navigator.clipboard.writeText(shareUrl)
+                  } catch {
+                    try {
+                      const ta = document.createElement('textarea')
+                      ta.value = shareUrl
+                      document.body.appendChild(ta)
+                      ta.select()
+                      document.execCommand('copy')
+                      document.body.removeChild(ta)
+                    } catch {}
+                  }
                 }}
                 title="Click to copy link to this second"
                 role="button"
@@ -355,14 +360,20 @@ export function Home(): JSX.Element {
                 tabIndex={0}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
+                    const shareUrl = new URL(`/${selectedUnix}`, window.location.origin).toString()
                     void (async () => {
                       try {
-                        const r = await fetch(`/og?unix=${selectedUnix}`)
-                        if (r.ok) {
-                          const shareUrl = new URL(`/s/${selectedUnix}`, window.location.origin).toString()
-                          await navigator.clipboard.writeText(shareUrl)
-                        }
-                      } catch {}
+                        await navigator.clipboard.writeText(shareUrl)
+                      } catch {
+                        try {
+                          const ta = document.createElement('textarea')
+                          ta.value = shareUrl
+                          document.body.appendChild(ta)
+                          ta.select()
+                          document.execCommand('copy')
+                          document.body.removeChild(ta)
+                        } catch {}
+                      }
                     })()
                   }
                 }}
