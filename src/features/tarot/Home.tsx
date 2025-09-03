@@ -80,7 +80,7 @@ export function Home(): JSX.Element {
   async function generateReading(cards: { name: string; reversed: boolean; description: string }[], indices: number[]): Promise<string> {
     // Try dev endpoint first
     try {
-      const path = '/read/' + indices.join('-')
+      const path = '/api/read/' + indices.join('-')
       const r = await fetch(path)
       if (r.ok) {
         const data = await r.json()

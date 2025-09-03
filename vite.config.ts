@@ -148,6 +148,75 @@ export default defineConfig({
           res.end(JSON.stringify({ error: 'internal_error' }))
         }
       })
+      server.middlewares.use('/api/read', async (req, res, next) => {
+        try {
+          const url = new URL(req.originalUrl || req.url || '', 'http://localhost')
+          const ids = url.pathname.replace(/^\/api\/read\//, '').split('-').filter(Boolean).map((n) => Number(n))
+          if (!ids.length || ids.some((n) => !Number.isFinite(n) || n < 0 || n > 155)) {
+            res.statusCode = 400
+            res.setHeader('Content-Type', 'application/json')
+            res.end(JSON.stringify({ error: 'invalid card ids' }))
+            return
+          }
+          const cards = ids.map((i) => deckCache[i]).filter(Boolean)
+          const promptList = cards.map((c, i) => {
+            const name = c.name
+            const desc = c.description
+            const pos = ['Past','Present','Future','Theme','Challenge','Advice'][i] || `Card ${i+1}`
+            return `${pos}: ${name} — ${desc}`
+          }).join('\n')
+          const tarotSpreadBlock = `<tarot_spread>\n${promptList}\n</tarot_spread>`
+
+          const apiKey = process.env.ANTHROPIC_API_KEY || ''
+          if (!apiKey) {
+            const text = `Tarot Summary\n\n${promptList}`
+            res.setHeader('Content-Type', 'application/json')
+            res.end(JSON.stringify({ text }))
+            return
+          }
+
+          const systemFromFile = (() => {
+            try {
+              const p = process.env.ANTHROPIC_SYSTEM_PROMPT_FILE || 'anthropic_system_prompt.txt'
+              if (fs.existsSync(p)) return fs.readFileSync(p, 'utf8')
+            } catch {}
+            return ''
+          })()
+          const systemPrompt = (process.env.ANTHROPIC_SYSTEM_PROMPT || systemFromFile || 'You are an insightful tarot reader. Provide a cohesive, hopeful spread interpretation.').toString()
+
+          const body = {
+            model: 'claude-3-haiku-20240307',
+            max_tokens: 800,
+            temperature: 0.7,
+            system: systemPrompt,
+            messages: [{ role: 'user', content: tarotSpreadBlock }],
+          }
+
+          const r = await fetch('https://api.anthropic.com/v1/messages', {
+            method: 'POST',
+            headers: {
+              'content-type': 'application/json',
+              'x-api-key': apiKey,
+              'anthropic-version': '2023-06-01',
+            },
+            body: JSON.stringify(body),
+          })
+          if (!r.ok) {
+            const text = `Tarot Summary\n\n${promptList}`
+            res.setHeader('Content-Type', 'application/json')
+            res.end(JSON.stringify({ text }))
+            return
+          }
+          const data = await r.json() as any
+          const content = (data?.content?.[0]?.text as string) || 'No response.'
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ text: content }))
+        } catch (e) {
+          res.statusCode = 500
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ error: 'internal_error' }))
+        }
+      })
       // Generate and cache an OG image; returns { url, page }
       server.middlewares.use('/og', async (req, res, next) => {
         try {
