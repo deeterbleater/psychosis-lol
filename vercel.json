@@ -5,7 +5,8 @@
     "api/og/[unix].ts": { "memory": 128, "maxDuration": 10 }
   },
   "routes": [
-    { "src": "/s/(\\d+)", "dest": "/api/share?unix=$1" }
+    { "src": "/s/(\\d+)", "dest": "/api/share?unix=$1" },
+    { "src": "/(\\d+)$", "dest": "/index.html" }
   ]
 }
 
