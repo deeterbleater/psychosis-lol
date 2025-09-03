@@ -1,0 +1,158 @@
+index,name,description,eso_link,img,reverse
+0,The Fool,0,https://www.esotericmeanings.com/thoth-fool-tarot-card-tutorial/,0,FALSE
+1,The Fool Reversed,0,https://www.esotericmeanings.com/thoth-fool-tarot-card-tutorial/,0,TRUE
+2,The Magician,I,https://www.esotericmeanings.com/thoth-magus-tarot-card-tutorial/,1,FALSE
+3,The Magician Reversed,I,https://www.esotericmeanings.com/thoth-magus-tarot-card-tutorial/,1,TRUE
+4,The Priestess,II,https://www.esotericmeanings.com/thoth-priestess-tarot-card-tutorial/,2,FALSE
+5,The Priestess Reversed,II,https://www.esotericmeanings.com/thoth-priestess-tarot-card-tutorial/,2,TRUE
+6,The Empress,III,https://www.esotericmeanings.com/thoth-empress-tarot-card/,3,FALSE
+7,The Empress Reversed,III,https://www.esotericmeanings.com/thoth-empress-tarot-card/,3,TRUE
+8,The Emperor,IV,https://www.esotericmeanings.com/thoth-emperor-tarot-card-tutorial/,4,FALSE
+9,The Emperor Reversed,IV,https://www.esotericmeanings.com/thoth-emperor-tarot-card-tutorial/,4,TRUE
+10,The Hierophant,V,https://www.esotericmeanings.com/thoth-hierophant-tarot-card-tutorial/,5,FALSE
+11,The Hierophant Reversed,V,https://www.esotericmeanings.com/thoth-hierophant-tarot-card-tutorial/,5,TRUE
+12,The Lovers,VI,https://www.esotericmeanings.com/thoth-lovers-tarot-card-tutorial/,6,FALSE
+13,The Lovers Reversed,VI,https://www.esotericmeanings.com/thoth-lovers-tarot-card-tutorial/,6,TRUE
+14,The Chariot,VII,https://www.esotericmeanings.com/thoth-chariot-tarot-card-tutorial/,7,FALSE
+15,The Chariot Reversed,VII,https://www.esotericmeanings.com/thoth-chariot-tarot-card-tutorial/,7,TRUE
+16,Adjustment,VIII,https://www.esotericmeanings.com/thoth-adjustment-tarot-card-tutorial/,8,FALSE
+17,Adjustment Reversed,VIII,https://www.esotericmeanings.com/thoth-adjustment-tarot-card-tutorial/,8,TRUE
+18,The Hermit,IX,https://www.esotericmeanings.com/thoth-hermit-tarot-card-tutorial/,9,FALSE
+19,The Hermit Reversed,IX,https://www.esotericmeanings.com/thoth-hermit-tarot-card-tutorial/,9,TRUE
+20,Fortune,X,https://www.esotericmeanings.com/thoth-fortune-tarot-card-tutorial/,10,FALSE
+21,Fortune Reversed,X,https://www.esotericmeanings.com/thoth-fortune-tarot-card-tutorial/,10,TRUE
+22,Lust,XI,https://www.esotericmeanings.com/thoth-lust-tarot-card-tutorial/,11,FALSE
+23,Lust Reversed,XI,https://www.esotericmeanings.com/thoth-lust-tarot-card-tutorial/,11,TRUE
+24,The Hanged Man,XII,https://www.esotericmeanings.com/thoth-hanged-man-tarot-card-tutorial/,12,FALSE
+25,The Hanged Man Reversed,XII,https://www.esotericmeanings.com/thoth-hanged-man-tarot-card-tutorial/,12,TRUE
+26,Death,XIII,https://www.esotericmeanings.com/thoth-death-tarot-card-tutorial/,13,FALSE
+27,Death Reversed,XIII,https://www.esotericmeanings.com/thoth-death-tarot-card-tutorial/,13,TRUE
+28,Art,XIV,https://www.esotericmeanings.com/thoth-art-tarot-card-tutorial/,14,FALSE
+29,Art Reversed,XIV,https://www.esotericmeanings.com/thoth-art-tarot-card-tutorial/,14,TRUE
+30,The Devil,XV,https://www.esotericmeanings.com/thoth-devil-tarot-card-tutorial/,15,FALSE
+31,The Devil Reversed,XV,https://www.esotericmeanings.com/thoth-devil-tarot-card-tutorial/,15,TRUE
+32,The Tower,XVI,https://www.esotericmeanings.com/thoth-tower-tarot-card-tutorial/,16,FALSE
+33,The Tower Reversed,XVI,https://www.esotericmeanings.com/thoth-tower-tarot-card-tutorial/,16,TRUE
+34,The Star,XVII,https://www.esotericmeanings.com/thoth-star-tarot-card-tutorial/,17,FALSE
+35,The Star Reversed,XVII,https://www.esotericmeanings.com/thoth-star-tarot-card-tutorial/,17,TRUE
+36,The Moon,XVIII,https://www.esotericmeanings.com/thoth-moon-tarot-card-tutorial/,18,FALSE
+37,The Moon Reversed,XVIII,https://www.esotericmeanings.com/thoth-moon-tarot-card-tutorial/,18,TRUE
+38,The Sun,XIX,https://www.esotericmeanings.com/thoth-sun-tarot-card-tutorial/,19,FALSE
+39,The Sun Reversed,XIX,https://www.esotericmeanings.com/thoth-sun-tarot-card-tutorial/,19,TRUE
+40,Aeon,XX,https://www.esotericmeanings.com/thoth-aeon-tarot-card-tutorial/,20,FALSE
+41,Aeon Reversed,XX,https://www.esotericmeanings.com/thoth-aeon-tarot-card-tutorial/,20,TRUE
+42,The Universe,XXI,https://www.esotericmeanings.com/thoth-universe-tarot-card-tutorial/,21,FALSE
+43,The Universe Reversed,XXI,https://www.esotericmeanings.com/thoth-universe-tarot-card-tutorial/,21,TRUE
+44,Knight of Wands,,https://www.esotericmeanings.com/knight-of-wands-thoth-tarot-card-tutorial/,22,FALSE
+45,Knight of Wands Reversed,,https://www.esotericmeanings.com/knight-of-wands-thoth-tarot-card-tutorial/,22,TRUE
+46,Queen of Wands,,https://www.esotericmeanings.com/queen-of-wands-thoth-tarot-card-tutorial/,23,FALSE
+47,Queen of Wands Reversed,,https://www.esotericmeanings.com/queen-of-wands-thoth-tarot-card-tutorial/,23,TRUE
+48,Prince of Wands,,https://www.esotericmeanings.com/prince-of-wands-thoth-tarot-card-tutorial/,24,FALSE
+49,Prince of Wands Reversed,,https://www.esotericmeanings.com/prince-of-wands-thoth-tarot-card-tutorial/,24,TRUE
+50,Princess of Wands,,https://www.esotericmeanings.com/prince-of-wands-thoth-tarot-card-tutorial/,25,FALSE
+51,Princess of Wands Reversed,,https://www.esotericmeanings.com/prince-of-wands-thoth-tarot-card-tutorial/,25,TRUE
+52,Ace of Wands,,https://www.esotericmeanings.com/ace-of-wands-thoth-tarot-card-tutorial/,26,FALSE
+53,Ace of Wands Reversed,,https://www.esotericmeanings.com/ace-of-wands-thoth-tarot-card-tutorial/,26,TRUE
+54,Two of Wands,Dominion,https://www.esotericmeanings.com/two-of-wands-thoth-tarot-card-tutorial/,27,FALSE
+55,Two of Wands Reversed,Dominion,https://www.esotericmeanings.com/two-of-wands-thoth-tarot-card-tutorial/,27,TRUE
+56,Three of Wands,Virtue,https://www.esotericmeanings.com/three-of-wands-thoth-tarot-card-tutorial/,28,FALSE
+57,Three of Wands Reversed,Virtue,https://www.esotericmeanings.com/three-of-wands-thoth-tarot-card-tutorial/,28,TRUE
+58,Four of Wands,Completion,https://www.esotericmeanings.com/four-of-wands-thoth-tarot-card-tutorial/,29,FALSE
+59,Four of Wands Reversed,Completion,https://www.esotericmeanings.com/four-of-wands-thoth-tarot-card-tutorial/,29,TRUE
+60,Five of Wands,Strife,https://www.esotericmeanings.com/five-of-wands-thoth-tarot-card-tutorial/,30,FALSE
+61,Five of Wands Reversed,Strife,https://www.esotericmeanings.com/five-of-wands-thoth-tarot-card-tutorial/,30,TRUE
+62,Six of Wands,Victory,https://www.esotericmeanings.com/six-of-wands-thoth-tarot-card-tutorial/,31,FALSE
+63,Six of Wands Reversed,Victory,https://www.esotericmeanings.com/six-of-wands-thoth-tarot-card-tutorial/,31,TRUE
+64,Seven of Wands,Valor,https://www.esotericmeanings.com/seven-of-wands-thoth-tarot-card-tutorial/,32,FALSE
+65,Seven of Wands Reversed,Valor,https://www.esotericmeanings.com/seven-of-wands-thoth-tarot-card-tutorial/,32,TRUE
+66,Eight of Wands,Swiftness,https://www.esotericmeanings.com/eight-of-wands-thoth-tarot-card-tutorial/,33,FALSE
+67,Eight of Wands Reversed,Swiftness,https://www.esotericmeanings.com/eight-of-wands-thoth-tarot-card-tutorial/,33,TRUE
+68,Nine of Wands,Strength,https://www.esotericmeanings.com/nine-of-wands-thoth-tarot-card-tutorial/,34,FALSE
+69,Nine of Wands Reversed,Strength,https://www.esotericmeanings.com/nine-of-wands-thoth-tarot-card-tutorial/,34,TRUE
+70,Ten of Wands,Opression,https://www.esotericmeanings.com/ten-of-wands-thoth-tarot-card-tutorial/,35,FALSE
+71,Ten of Wands Reversed,Opression,https://www.esotericmeanings.com/ten-of-wands-thoth-tarot-card-tutorial/,35,TRUE
+72,Knight of Cups,,https://www.esotericmeanings.com/knight-of-cups-thoth-tarot-card-tutorial/,36,FALSE
+73,Knight of Cups Reversed,,https://www.esotericmeanings.com/knight-of-cups-thoth-tarot-card-tutorial/,36,TRUE
+74,Queen of Cups,,https://www.esotericmeanings.com/queen-of-cups-thoth-tarot-card-tutorial/,37,FALSE
+75,Queen of Cups Reversed,,https://www.esotericmeanings.com/queen-of-cups-thoth-tarot-card-tutorial/,37,TRUE
+76,Prince of Cups,,https://www.esotericmeanings.com/prince-of-cups-thoth-tarot-card-tutorial/,38,FALSE
+77,Prince of Cups Reversed,,https://www.esotericmeanings.com/prince-of-cups-thoth-tarot-card-tutorial/,38,TRUE
+78,Princess of Cups,,https://www.esotericmeanings.com/princess-of-cups-thoth-tarot-card-tutorial/,39,FALSE
+79,Princess of Cups Reversed,,https://www.esotericmeanings.com/princess-of-cups-thoth-tarot-card-tutorial/,39,TRUE
+80,Ace of Cups,,https://www.esotericmeanings.com/ace-of-cups-thoth-tarot-card-tutorial/,40,FALSE
+81,Ace of Cups Reversed,,https://www.esotericmeanings.com/ace-of-cups-thoth-tarot-card-tutorial/,40,TRUE
+82,Two of Cups,Love,https://www.esotericmeanings.com/two-of-cups-thoth-tarot-card-tutorial/,41,FALSE
+83,Two of Cups Reversed,Love,https://www.esotericmeanings.com/two-of-cups-thoth-tarot-card-tutorial/,41,TRUE
+84,Three of Cups,Abundance,https://www.esotericmeanings.com/three-of-cups-thoth-tarot-card-tutorial/,42,FALSE
+85,Three of Cups Reversed,Abundance,https://www.esotericmeanings.com/three-of-cups-thoth-tarot-card-tutorial/,42,TRUE
+86,Four of Cups,Luxury,https://www.esotericmeanings.com/four-of-cups-thoth-tarot-card-tutorial/,43,FALSE
+87,Four of Cups Reversed,Luxury,https://www.esotericmeanings.com/four-of-cups-thoth-tarot-card-tutorial/,43,TRUE
+88,Five of Cups,Disappointment,http://www.esotericmeanings.com/five-of-cups-thoth-tarot-card-tutorial/,44,FALSE
+89,Five of Cups Reversed,Disappointment,http://www.esotericmeanings.com/five-of-cups-thoth-tarot-card-tutorial/,44,TRUE
+90,Six of Cups,Pleasure,http://www.esotericmeanings.com/six-of-cups-thoth-tarot-card-tutorial/,45,FALSE
+91,Six of Cups Reversed,Pleasure,http://www.esotericmeanings.com/six-of-cups-thoth-tarot-card-tutorial/,45,TRUE
+92,Seven of Cups,Debauch,http://www.esotericmeanings.com/seven-of-cups-thoth-tarot-card-tutorial/,46,FALSE
+93,Seven of Cups Reversed,Debauch,http://www.esotericmeanings.com/seven-of-cups-thoth-tarot-card-tutorial/,46,TRUE
+94,Eight of Cups,Indolence,http://www.esotericmeanings.com/eight-of-cups-thoth-tarot-card-tutorial/,47,FALSE
+95,Eight of Cups Reversed,Indolence,http://www.esotericmeanings.com/eight-of-cups-thoth-tarot-card-tutorial/,47,TRUE
+96,Nine of Cups,Happiness,https://www.esotericmeanings.com/nine-of-cups-thoth-tarot-card-tutorial/,48,FALSE
+97,Nine of Cups Reversed,Happiness,https://www.esotericmeanings.com/nine-of-cups-thoth-tarot-card-tutorial/,48,TRUE
+98,Ten of Cups,Satiety,http://www.esotericmeanings.com/ten-of-cups-thoth-tarot-card-tutorial/,49,FALSE
+99,Ten of Cups Reversed,Satiety,http://www.esotericmeanings.com/ten-of-cups-thoth-tarot-card-tutorial/,49,TRUE
+100,Knight of Swords,,http://www.esotericmeanings.com/knight-of-swords-thoth-tarot-card-tutorial/,50,FALSE
+101,Knight of Swords Reversed,,http://www.esotericmeanings.com/knight-of-swords-thoth-tarot-card-tutorial/,50,TRUE
+102,Queen of Swords,,http://www.esotericmeanings.com/queen-of-swords-thoth-tarot-card-tutorial/,51,FALSE
+103,Queen of Swords Reversed,,http://www.esotericmeanings.com/queen-of-swords-thoth-tarot-card-tutorial/,51,TRUE
+104,Prince of Swords,,http://www.esotericmeanings.com/prince-of-swords-thoth-tarot-card-tutorial/,52,FALSE
+105,Prince of Swords Reversed,,http://www.esotericmeanings.com/prince-of-swords-thoth-tarot-card-tutorial/,52,TRUE
+106,Princess of Swords,,http://www.esotericmeanings.com/princess-of-swords-thoth-tarot-card-tutorial/,53,FALSE
+107,Princess of Swords Reversed,,http://www.esotericmeanings.com/princess-of-swords-thoth-tarot-card-tutorial/,53,TRUE
+108,Ace of Swords,,http://www.esotericmeanings.com/ace-of-swords-thoth-tarot-card-tutorial/,54,FALSE
+109,Ace of Swords Reversed,,http://www.esotericmeanings.com/ace-of-swords-thoth-tarot-card-tutorial/,54,TRUE
+110,Two of Swords,Peace,http://www.esotericmeanings.com/two-of-swords-thoth-tarot-card-tutorial/,55,FALSE
+111,Two of Swords Reversed,Peace,http://www.esotericmeanings.com/two-of-swords-thoth-tarot-card-tutorial/,55,TRUE
+112,Three of Swords,Sorrow,http://www.esotericmeanings.com/three-of-swords-thoth-tarot-card-tutorial/,56,FALSE
+113,Three of Swords Reversed,Sorrow,http://www.esotericmeanings.com/three-of-swords-thoth-tarot-card-tutorial/,56,TRUE
+114,Four of Swords,Truce,http://www.esotericmeanings.com/four-of-swords-thoth-tarot-card-tutorial/,57,FALSE
+115,Four of Swords Reversed,Truce,http://www.esotericmeanings.com/four-of-swords-thoth-tarot-card-tutorial/,57,TRUE
+116,Five of Swords,Defeat,http://www.esotericmeanings.com/five-of-swords-thoth-tarot-card-tutorial/,58,FALSE
+117,Five of Swords Reversed,Defeat,http://www.esotericmeanings.com/five-of-swords-thoth-tarot-card-tutorial/,58,TRUE
+118,Six of Swords,Science,http://www.esotericmeanings.com/six-of-swords-thoth-tarot-card-tutorial/,59,FALSE
+119,Six of Swords Reversed,Science,http://www.esotericmeanings.com/six-of-swords-thoth-tarot-card-tutorial/,59,TRUE
+120,Seven of Swords,Futility,http://www.esotericmeanings.com/seven-of-swords-thoth-tarot-card-tutorial/,60,FALSE
+121,Seven of Swords Reversed,Futility,http://www.esotericmeanings.com/seven-of-swords-thoth-tarot-card-tutorial/,60,TRUE
+122,Eight of Swords,Interference,http://www.esotericmeanings.com/eight-of-swords-thoth-tarot-card-tutorial/,61,FALSE
+123,Eight of Swords Reversed,Interference,http://www.esotericmeanings.com/eight-of-swords-thoth-tarot-card-tutorial/,61,TRUE
+124,Nine of Swords,Cruelty,http://www.esotericmeanings.com/nine-of-swords-thoth-tarot-card-tutorial/,62,FALSE
+125,Nine of Swords Reversed,Cruelty,http://www.esotericmeanings.com/nine-of-swords-thoth-tarot-card-tutorial/,62,TRUE
+126,Ten of Swords,Ruin,http://www.esotericmeanings.com/ten-of-swords-thoth-tarot-card-tutorial/,63,FALSE
+127,Ten of Swords Reversed,Ruin,http://www.esotericmeanings.com/ten-of-swords-thoth-tarot-card-tutorial/,63,TRUE
+128,Knight of Disks,,http://www.esotericmeanings.com/knight-of-disks-thoth-tarot-card-tutorial/,64,FALSE
+129,Knight of Disks Reversed,,http://www.esotericmeanings.com/knight-of-disks-thoth-tarot-card-tutorial/,64,TRUE
+130,Queen of Disks,,http://www.esotericmeanings.com/queen-of-disks-thoth-tarot-card-tutorial/,65,FALSE
+131,Queen of Disks Reversed,,http://www.esotericmeanings.com/queen-of-disks-thoth-tarot-card-tutorial/,65,TRUE
+132,Prince of Disks,,http://www.esotericmeanings.com/prince-of-disks-thoth-tarot-card-tutorial/,66,FALSE
+133,Prince of Disks Reversed,,http://www.esotericmeanings.com/prince-of-disks-thoth-tarot-card-tutorial/,66,TRUE
+134,Princess of Disks,,http://www.esotericmeanings.com/princess-of-disks-thoth-tarot-card-tutorial/,67,FALSE
+135,Princess of Disks Reversed,,http://www.esotericmeanings.com/princess-of-disks-thoth-tarot-card-tutorial/,67,TRUE
+136,Ace of Disks,,http://www.esotericmeanings.com/ace-of-disks-thoth-tarot-card-tutorial/,68,FALSE
+137,Ace of Disks Reversed,,http://www.esotericmeanings.com/ace-of-disks-thoth-tarot-card-tutorial/,68,TRUE
+138,Two of Disks,Change,http://www.esotericmeanings.com/two-of-disks-thoth-tarot-card-tutorial/,69,FALSE
+139,Two of Disks Reversed,Change,http://www.esotericmeanings.com/two-of-disks-thoth-tarot-card-tutorial/,69,TRUE
+140,Three of Disks,Works,http://www.esotericmeanings.com/three-of-disks-thoth-tarot-card-tutorial/,70,FALSE
+141,Three of Disks Reversed,Works,http://www.esotericmeanings.com/three-of-disks-thoth-tarot-card-tutorial/,70,TRUE
+142,Four of Disks,Power,http://www.esotericmeanings.com/four-of-disks-thoth-tarot-card-tutorial/,71,FALSE
+143,Four of Disks Reversed,Power,http://www.esotericmeanings.com/four-of-disks-thoth-tarot-card-tutorial/,71,TRUE
+144,Five of Disks,Worry,http://www.esotericmeanings.com/five-of-disks-thoth-tarot-card-tutorial/,72,FALSE
+145,Five of Disks Reversed,Worry,http://www.esotericmeanings.com/five-of-disks-thoth-tarot-card-tutorial/,72,TRUE
+146,Six of Disks,Success,http://www.esotericmeanings.com/six-of-disks-thoth-tarot-card-tutorial/,73,FALSE
+147,Six of Disks Reversed,Success,http://www.esotericmeanings.com/six-of-disks-thoth-tarot-card-tutorial/,73,TRUE
+148,Seven of Disks,Failure,http://www.esotericmeanings.com/seven-of-disks-thoth-tarot-card-tutorial/,74,FALSE
+149,Seven of Disks Reversed,Failure,http://www.esotericmeanings.com/seven-of-disks-thoth-tarot-card-tutorial/,74,TRUE
+150,Eight of disks,Prudence,http://www.esotericmeanings.com/eight-of-disks-thoth-tarot-tutorial/,75,FALSE
+151,Eight of disks Reversed,Prudence,http://www.esotericmeanings.com/eight-of-disks-thoth-tarot-tutorial/,75,TRUE
+152,Nine of Disks,Gain,http://www.esotericmeanings.com/nine-of-disks-thoth-tarot-card-tutorial/,76,FALSE
+153,Nine of Disks Reversed,Gain,http://www.esotericmeanings.com/nine-of-disks-thoth-tarot-card-tutorial/,76,TRUE
+154,Ten of Disks,Wealth,http://www.esotericmeanings.com/ten-of-disks-thoth-tarot-card-tutorial/,77,FALSE
+155,Ten of Disks Reversed,Wealth,http://www.esotericmeanings.com/ten-of-disks-thoth-tarot-card-tutorial/,77,TRUE
+
