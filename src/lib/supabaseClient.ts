@@ -1,18 +1,9 @@
 import { createClient } from '@supabase/supabase-js'
 
-// Read directly from import.meta.env so Vite statically inlines at build time
-// Prefer REACT_APP_* by default, with VITE_* and NEXT_PUBLIC_* as fallbacks
-const supabaseUrl = (
-  import.meta.env.REACT_APP_SUPABASE_URL ??
-  import.meta.env.VITE_SUPABASE_URL ??
-  import.meta.env.NEXT_PUBLIC_SUPABASE_URL
-) as string
-const supabaseAnonKey = (
-  import.meta.env.REACT_APP_SUPABASE_ANON_KEY ??
-  import.meta.env.VITE_SUPABASE_ANON_KEY ??
-  import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY ??
-  import.meta.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-) as string
+// Hardcode values directly for Vercel deployment
+// These will be replaced by Vite's define() during build
+const supabaseUrl = 'https://aztukfwaezytkiugmcwc.supabase.co'
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF6dHVrZndhZXp5dGtpdWdtY3djIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc0OTYzOTAsImV4cCI6MjA3MzA3MjM5MH0.FXV8sjfn7FaJoRp3GuFMepvAY5taoxjZp6hOf-oHxAo'
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   auth: {
